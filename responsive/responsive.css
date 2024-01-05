@@ -1,0 +1,39 @@
+@media( max-width:1520px){
+    .mohib-header {
+        width: 100%;
+    }
+}
+@media ( max-width:1200px){
+    .mohib-header {
+        width: 100%;
+    }
+    .navbar-collapse {
+        margin-left: 35px;
+        font-size: 20px;
+    }
+    .slider-cap {
+        margin-bottom: 13px;
+    }
+}
+@media ( max-width:992px){
+    .mohib-header {
+        height: 60px;
+    }
+    .mohib-header .navbar-brand {
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .navbar span {
+        background-color: #9595ee;
+        padding: 0px 10px;
+        position: relative;
+        top: 1px;
+    }
+
+}
+@media ( max-width:576px){
+    .mohib-header .navbar-brand {
+        font-size: 21px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,448 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', Work Sans Light;
+}
+img{
+    width: 100%;
+}
+/* Header */
+/* .mohib-header{
+    height: 55px;
+} */
+.mohib-header .navbar-brand{
+    font-size: 28px;
+    font-weight: 500;
+}
+.navbar-collapse{
+    margin-left: 120px;
+    font-size: 20px;
+}
+ul.dropdown-menu.show {
+    top: 126%;
+}
+.navbar span {
+    color: white;
+    background-color: #6666e4;
+ padding: 0px 14px;
+    display: inline-block;
+    font-size: 29px;
+    border-radius: 8px;
+    position: relative;
+    top: 0px;
+}
+.mr-button{
+    font-weight: bold;
+}
+
+/* slider-section */
+
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 110px 0px;
+    position: relative;
+    z-index:1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    z-index: -1
+}
+.slider-cap{
+    color: white;
+    margin-bottom: 35px;
+}
+.slider-cap h4{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.slider-cap h1{
+    font-size: 50px;
+}
+.slider-form{
+    padding: 10px 12px;
+    width: 60%;
+}
+
+.slider-form .form-control{
+ padding: 12px;
+}
+
+.slider-form .btn{
+    color: white;
+    font-weight:500;
+    transition: .5s;
+}
+.slider-form .btn:hover{
+    text-align: left;
+    color: rgb(201, 37, 37);
+}
+.slider-form .btn span {
+    visibility: hidden;
+    opacity: 0;
+}
+.slider-form .btn:hover span{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* User */
+
+.user{
+    padding: 40px;
+    background-color:#f0f2f5;
+}
+.user .boro{
+    font-size: 58px;
+    font-weight: 500;
+    transition: .5s;
+}
+.user .chuto {
+    font-size: 24px;
+    color: #535252;
+    font-weight: 400;
+    transition: .5s;
+}
+.user .boro:hover{
+    transform: scale(1.2, 1.2);
+}
+.user .chuto:hover{
+    transform: scale(1.1 ,1.1);
+    color: red;
+}
+
+
+/* Profile */
+
+.profile{
+    background-color: rgba(231, 230, 223, 0.338);
+}
+
+.pro-text {
+    margin-top: 115px;
+}
+.pro-text h1 {
+    font-size: 45px;
+    margin-bottom: 29px;
+}
+.pro-text p {
+    font-size: 22px;
+    line-height: 32px;
+}
+.profile img{
+    width: 100%;
+}
+/* About */
+.about-text{
+    margin: 41px;
+    animation: example 1s ease-out infinite;
+}
+.about-text h1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+@keyframes example {
+    0%   {left:-30px; top:0px;}
+    25%  {left:20px; top:0px;}
+    50%  {right:20px; top:0px;}
+    75%  {left:0px; top:0px;}
+    100% {left:-30px; top:0px;}
+  }
+.about-text h4{
+    font-size: 24px;
+}
+
+
+/* feature-section */
+
+.feature-item{
+    height: 230px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.text-section{
+    width: 60%;
+    margin-top: 30px;
+}
+.feature-item-section{
+    width: 40%;
+    max-width: inherit;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.img-heart-section{
+    width: 40%;
+    max-width: inherit;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.img-heart-section img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -84px;
+    top: 0px;
+}
+.img-move-section{
+    width: 40%;
+    max-width: inherit;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.img-move-section img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -43px;
+    top: 0px;
+}
+.img-fitness-section{
+    width: 40%;
+    max-width: inherit;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.img-fitness-section img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -19px;
+    top: 0px;
+}
+.img-success-section{
+    width: 40%;
+    max-width: inherit;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.img-success-section img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -84px;
+    top: 0px;
+}
+.img-workouts-section{
+    width: 40%;
+    max-width: inherit;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.img-workouts-section img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -54px;
+    top: 0px;
+}
+.img-motivation-section{
+    width: 40%;
+    max-width: inherit;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.img-motivation-section img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -112px;
+    top: 0px;
+}
+.presentaion h1 {
+    margin: 70px 0px 50px 0px;
+    font-weight: 400;
+}
+
+/* Portpolio */
+
+.portpolio-item a {
+    position: relative;
+    display: block;
+}
+.portpolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(135, 151, 227, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.portpolio-item:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+.useful-app{
+    margin-top: 75px;
+}
+.useful-app h1 {
+    font-weight: 400;
+    font-size: 50px;
+}
+.useful-app p {
+    font-size: 22px;
+    margin: 20px 0px;
+}
+
+/* Pricing section */
+.pricing-section-item{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    padding: 53px 10px;
+}
+.pricing-head{
+    margin: 0px 50px;
+}
+.pricing-head h1{}
+
+.pricing-head h6 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0px 10px 6px;
+}
+
+.pricing-item{}
+
+.pricing-item ul li{
+    list-style-type: none;
+    line-height: 50px;
+}
+.pricing-item ul li a{
+    color: #777;
+    font-size: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.pricing-item span {
+    width: 30px;
+    color: #5b74e4;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 6px;
+}
+.pricing-section-item .mr-button {
+    width: 200px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+/* Author-section */
+
+.author-about{
+    width: 800px;
+    margin: auto;
+}
+.author-about h1{
+    font-size: 30px;
+}
+.author-about h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.quote span {
+    color: rgb(217, 214, 214);
+    font-size: 70px;
+}
+.author-about-text {
+    font-size: 22px;
+    font-weight: 300;
+}
+.user-box img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-left: 300px;
+}
+.user-box .face-text {
+    float: left;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.user-box .face-text h5 {
+    font-weight: bold;
+}
+.user-box .face-text h6 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: -50px;
+}
+
+/* History */
+.history{
+    background-color: #f7f9ff;
+}
+.history h3 {
+    font-size: 37px;
+    text-align: center;
+    margin: 25px 0px;   
+}
+.history p {
+    font-size: 22px;
+    font-weight: 300;
+}
+.history .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    border: none;
+    margin-top: 100px;
+}
+.history .card img {
+    width: 100px;
+    height: auto;
+    margin: -50px 15px 0px;
+}
+.history .card-body h5 {
+    font-size: 23px;
+    margin: 2px 0px 15px;
+}
+.history .card-body h6 {
+    font-weight: 400;
+    margin: 2px 0px 10px;
+}
+.history .card-body p{
+    font-size: 15px;
+}
+.history .card-body a{}
+/* contact */
+
+.form.shadow.text-center {
+    width: 750px;
+    margin: auto;
+}
+.contact h2{
+    font-size: 40px;
+}
+.contact form{
+    width: 700px;
+}
+.information h5 {
+    text-align: center;
+    font-size: 22px;
+}
+.information h2 {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.information a{
+    margin-bottom: 35px;
+}
+.footer p{
+    font-size: 22px;
+}
